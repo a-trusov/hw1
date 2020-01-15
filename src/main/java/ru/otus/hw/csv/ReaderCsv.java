@@ -3,7 +3,8 @@ package ru.otus.hw.csv;
 import ru.otus.hw.domain.Question;
 
 import java.util.List;
+import java.util.Locale;
 
 public interface ReaderCsv {
-    public List<Question> getQuestions();
+    List<Question> getQuestions(Locale locale);
 }
